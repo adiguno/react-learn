@@ -1,3 +1,7 @@
+# create new nextjs app with typescript and tailwind, yarn, prettier
+- `create-next-app --example with-tailwindcss <project_name>`
+- `yarn add -D prettier prettier-plugin-tailwindcss`
+
 # react-learn
 - __Client-side navigation__ means that the page transition happens using JavaScript, which is faster than the default navigation done by the browser.
 -  Next.js automatically prefetches the code for the linked page in the background, in production build. 
