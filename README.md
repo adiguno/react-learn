@@ -10,5 +10,11 @@
 ## images
 - images must be placed in `public/images`
 
+## favicon 
+- must be place in `public/` directly
+
 ## Nextjs Image
 - `layout='fill'` -> grow in both x and y to fill container
+
+## Tailwind CSS
+- light mode is the default, so only dark-mode specifier `dark:` needs to be added to support 2 modes
