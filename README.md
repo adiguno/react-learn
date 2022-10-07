@@ -22,6 +22,7 @@
 
 ## favicon 
 - must be place in `public/` directly
+- 32 x 32 pixels
 
 ## Nextjs Image
 - `layout='fill'` -> grow in both x and y to fill container
@@ -31,6 +32,7 @@
 - separate content and layout
 - review the basics again
 - when learning, dont try to design, use a design
+- font-family can hold several fonts, use backup if no browser support
 
 ## Tailwind CSS
 - light mode is the default, so only dark-mode specifier `dark:` needs to be added to support 2 modes
@@ -54,3 +56,19 @@
 - replace *** in the connection string with the password
 - is there only 1 password for prod and non-prod branches?
 - if using primsa, copy `shcema.prisma` into project
+- go to settings, and turn on migration framework - Prisma
+- why?? create a shadow branch, for main?? some interaction with prisma sql migrations
+    - pscale into dev and shadow
+- `pscale connect <db> <branch>` to create a connection to use on local
+    - local database can now be the planet scale branch
+- shadow branches only needed for the development
+    - use `prisma db push`...
+
+# Astro
+`npm run astro add react tailwind`
+
+# Vercel
+- connect to your github for easy deployment
+- make sure your NextJS project is located in the root directory of the github project
+    - putting it in a sub directory cause problems
+- set DATABASE_URL and other environment variables during deployment
